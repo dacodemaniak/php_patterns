@@ -1,4 +1,7 @@
 <?php
+use Builder\VehiculeDirector;
+use Builder\Automobile;
+
 ini_set("display_errors", true);
 error_reporting(E_ALL^E_NOTICE);
 
@@ -69,3 +72,14 @@ echo $worker3->getDate() . "<br>";
 echo $worker3->run("hola") . "<br>\n";
 
 echo "\n<br>\nInstances courantes : " . $workerPool->count();
+
+/**
+ * Builder : Construire des objets complexes
+ */
+require_once(__DIR__ . "/Classes/Builder/VehiculeDirector.php");
+require_once(__DIR__ . "/Classes/Builder/Automobile.php");
+
+$carBuilder = new Builder\Automobile(); // Définir un builder d'Automobile
+$maVoiture = (new VehiculeDirector())->build($carBuilder);
+var_dump($maVoiture);
+
