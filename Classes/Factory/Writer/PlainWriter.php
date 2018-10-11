@@ -3,7 +3,9 @@
 * @name PlainWriter Service d'écriture d'un texte plein
 * @version 1.0.0
 */
-require_once(__DIR__  . "/Writer.php");
+namespace Factory\Writer;
+
+use Factory\Writer\Writer;
 
 class PlainWriter implements Writer {
 	/**

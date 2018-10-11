@@ -1,5 +1,7 @@
 <?php
-require_once(__DIR__ . "/StringReverseWorker.php");
+namespace Pool;
+
+use Pool\StringReverseWorker;
 
 class WorkerPool implements \Countable
 {

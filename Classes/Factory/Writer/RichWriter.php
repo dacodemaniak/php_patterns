@@ -3,7 +3,9 @@
 * @name RichWriter Service d'écriture d'un texte riche
 * @version 1.0.0
 */
-require_once(__DIR__  . "/Writer.php");
+namespace Factory\Writer;
+
+use Factory\Writer\Writer;
 
 class RichWriter implements Writer {
 	/**

@@ -3,6 +3,8 @@
 * @name ParticipantPrototype Prototype de classes Participant
 * @version 1.0.0
 */
+namespace Prototype;
+
 abstract class ParticipantPrototype {
 	/**
 	 * Nom du participant

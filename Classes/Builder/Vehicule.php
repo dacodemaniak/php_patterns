@@ -5,8 +5,6 @@
 */
 namespace Builder;
 
-require_once(__DIR__ . "/Parts/Part.php");
-
 use Builder\Parts\Part;
 
 abstract class Vehicule {

@@ -6,8 +6,6 @@
 */
 namespace Builder\Parts;
 
-require_once(__DIR__ . "/Part.php");
-
 use Builder\Parts\Part;
 
 class Wheel implements Part {

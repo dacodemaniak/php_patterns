@@ -3,7 +3,9 @@
 * @name Factory Extension de la classe WriterFactory
 * @version 1.0.0
 */
-require_once(__DIR__ . "/WriterFactory.php");
+namespace Factory\Writer;
+
+use Factory\Writer\WriterFactory;
 
 class Factory extends WriterFactory {
 	public static function create(string $type, array $args): Writer {

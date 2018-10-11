@@ -3,7 +3,7 @@
 * @name WriterFactory Usine à Writer
 * @version 1.0.0
 */
-require_once(__DIR__ . "/Writer.php");
+namespace Factory\Writer;
 
 abstract class WriterFactory {
 	/**

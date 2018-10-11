@@ -6,11 +6,6 @@
 */
 namespace Builder;
 
-require_once(__DIR__ . "/VehiculeBuilder.php");
-require_once(__DIR__ . "/Auto/Car.php");
-require_once(__DIR__ . "/Parts/Engine.php");
-require_once(__DIR__ . "/Parts/Wheel.php");
-
 use Builder\VehiculeBuilder;
 use Builder\Auto\Car;
 

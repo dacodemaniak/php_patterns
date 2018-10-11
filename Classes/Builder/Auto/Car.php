@@ -6,8 +6,6 @@
 */
 namespace Builder\Auto;
 
-require_once(__DIR__ . "/../Vehicule.php");
-
 use Builder\Vehicule;
 
 class Car extends Vehicule {
